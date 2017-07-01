@@ -9,3 +9,7 @@ print(d.university_towns)
 print('recession start at ' + str(d.get_recession_start()))
 print('recession ends at ' + str(d.get_recession_end()))
 print('recession bottom at ' + str(d.get_recession_bottom()))
+
+print('hypothesis testing: ' + str(d.run_ttest()))
+
+
